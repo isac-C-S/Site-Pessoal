@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isac Santos - Desenvolvedor Full Stack Júnior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="tsparticles" class="particles-bg"></div>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Isac Santos</a>
+            <div class="nav-menu">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class='bx bx-sun'></i>
+                    <i class='bx bx-moon'></i>
+                </button>
+                <button class="menu-btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="profile-img">
+                <img src="isac.jpg" alt="Foto de Perfil">
+            </div>
+            <h1 class="animate-fade-up">Desenvolvedor Fullstack</h1>
+            <p class="animate-fade-up delay-200"> Java | Spring Boot | JavaScript | Next.js</p>
+            <a href="#projetos" class="btn btn-primary animate-fade-up delay-400">Ver Projetos</a>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="card glass-effect animate-on-scroll">
+                <h2>Sobre Mim</h2>
+                <p>Desenvolvedor Fullstack apaixonado por tecnologia, inovação e construção de soluções eficientes. Tenho experiência no desenvolvimento e modernização de sistemas web utilizando Java (Spring Boot), JavaScript, React, Next.js e MySQL. Atuo tanto no backend quanto no frontend, focando na criação de aplicações robustas, escaláveis e com boa experiência para o usuário.
+
+Busco constantemente evoluir tecnicamente, contribuir com projetos desafiadores e agregar valor através da tecnologia.</p>
+                <p>Estou sempre aberto a novas oportunidades de aprendizado e colaboração
+                em projetos desafiadores que me permitam expandir minhas habilidades.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bxl-html5 skill-icon'></i>
+                    <span>HTML e CSS</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bxl-javascript skill-icon'></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bxl-react skill-icon'></i>
+                    <span>React.js</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bxl-nodejs skill-icon'></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bxl-git skill-icon'></i>
+                    <span>Git</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bx-data skill-icon'></i>
+                    <span>SQL Básico</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bxl-java skill-icon'></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bx-cog skill-icon'></i>
+                    <span>Spring Boot</span>
+                </div>
+                <div class="skill-card glass-effect animate-on-scroll">
+                    <i class='bx bx-server skill-icon'></i>
+                    <span>Oracle</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+                <section id="projetos" class="projetos">
+                    <div class="container">
+                        <h2>Projetos</h2>
+                        <div class="projects-grid">
+                        <div class="project-card glass-effect animate-on-scroll">
+                <div class="project-img">
+                    <video autoplay loop muted playsinline>
+                        <source src="estrelinha.mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                    <div class="project-links">
+                        <a href="https://github.com/isac-C-S/Blog-Estrelinha" class="btn btn-outline" target="_blank">
+                            <i class='bx bxl-github'></i>
+                            Código
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Estrelinha Dicas e Sabores</h3>
+                    <p>Blog de receitas com cadastro de receitas, categorias, comentários dos usuários, autenticação dos administradores e permissões de acesso. O administrador poderá editar e excluir receitas, categorias e comentários. O sistema também possui filtros e pesquisa para facilitar a navegação dos usuários.</p>
+                    <div class="tech-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>JavaScript</span>
+                        <span>Next.js</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+
+                <div class="project-card glass-effect animate-on-scroll">
+                    <div class="project-img">
+                        <video autoplay loop muted playsinline>
+                            <source src="Automatizador-Planilhas.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Automatizador de Planilhas das Emissoras de TV</h3>
+                        <p>Sistema responsável por verificar se as obras musicais informadas nas planilhas fornecidas pelas emissoras fazem parte do portfólio da empresa. Para lidar com erros de digitação, variações e a falta de padronização nos dados, foram utilizadas estratégias avançadas de busca, como o algoritmo Soundex e outras técnicas de normalização textual, garantindo maior precisão na correspondência das obras.
+</p>
+                        <div class="tech-tags">
+                            <span>Next.js</span>
+                            <span>JavaScript</span>
+                            <span>Java</span>
+                            <span>SpringBoot</span>
+                            <span>Oracle</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-effect animate-on-scroll">
+                    <div class="project-img">
+                        <div class="project-img">
+                            <video autoplay loop muted playsinline>
+                            <source src="CheckMidia.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    
+                    </div>
+                    <div class="project-info">
+                        <h3>CheckMidia</h3>
+                        <p>Sistema de monitoração de canais televisivos com autenticação completa (login, cadastro e recuperação via e-mail). Grava o áudio de canais como o SBT, transcreve automaticamente e verifica se a letra corresponde a músicas do portfólio da empresa.</p>
+                        <div class="tech-tags">
+                            <span>Next.js</span>
+                            <span>JavaScript</span>
+                            <span>SpringBoot</span>
+                            <span>Java</span>
+                            <span>Mysql</span>
+                            <span>Docker</span>
+                            <span>WHISPER.ai</span>
+                            <span>YAMNet</span>
+                            <span>DEMUCS</span>
+                            <span>Python</span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Vamos conversar sobre oportunidades de colaboração</p>
+            <div class="contact-links">
+                <a href="https://github.com/isac-C-S" class="btn btn-outline glass-effect animate-on-scroll" target="_blank">
+                    <i class='bx bxl-github'></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/isac-santos-b48111118/" class="btn btn-outline glass-effect animate-on-scroll" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                    LinkedIn
+                </a>
+                <a href="https://wa.me/5521980232912" class="btn btn-outline glass-effect animate-on-scroll" target="_blank">
+                    <i class='bx bxl-whatsapp'></i>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Isac Santos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateParticlesColor(newTheme);
+        });
+
+        function updateParticlesColor(theme) {
+            const color = theme === 'dark' ? "#4F46E5" : "#3B82F6";
+            tsParticles.load("tsparticles", {
+                fpsLimit: 120,
+                interactivity: {
+                    events: {
+                        onClick: { enable: true, mode: "push" },
+                        onHover: { enable: true, mode: "repulse" },
+                        resize: true,
+                    },
+                    modes: {
+                        push: { quantity: 4 },
+                        repulse: { distance: 100, duration: 0.4 },
+                    },
+                },
+                particles: {
+                    color: { value: color },
+                    links: { color: color, distance: 150, enable: true, opacity: 0.15, width: 1 },
+                    move: {
+                        direction: "none",
+                        enable: true,
+                        outModes: { default: "bounce" },
+                        speed: 1,
+                    },
+                    number: {
+                        density: { enable: true, area: 1000 },
+                        value: 100,
+                    },
+                    opacity: { value: 0.2, animation: { enable: true, speed: 0.5, minimumValue: 0.1 } },
+                    shape: { type: "circle" },
+                    size: { value: { min: 1, max: 3 }, animation: { enable: true, speed: 2, minimumValue: 0.5 } },
+                },
+                detectRetina: true,
+            });
+        }
+
+        updateParticlesColor(html.getAttribute('data-theme'));
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const navMenu = document.querySelector('.nav-menu');
+        menuBtn.addEventListener('click', () => navMenu.classList.toggle('active'));
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => navMenu.classList.remove('active'));
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
